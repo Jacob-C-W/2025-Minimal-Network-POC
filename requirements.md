@@ -14,7 +14,7 @@
 
     Governance: 
 
-1. Connectivity []
+1. Connectivity [x]
 2. VLAN segmentation []
 3. Guest Network [x]
 4. IoT Network [x]

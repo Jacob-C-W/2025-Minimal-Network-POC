@@ -1,5 +1,10 @@
 # VPN Policy
 
+TLDR; 
+1. Authenticated access
+2. Encrypted traffic
+3. Policy controlled
+#
 - VPN doesn't grant full LAN access
     - VPN access is only to approved internal LAN.
 - Role Seperation
@@ -18,7 +23,6 @@
 - VPN access must be monitored and logged.
 - VPN solution must be kept up to date.
 - All configurations should be backed up according to policy.
-
-
+#
 
 **Sources:** [NSA, CISA Release Guidance on Selecting and Hardening Remote Access VPNs](https://www.nsa.gov/Press-Room/News-Highlights/Article/Article/2791320/nsa-cisa-release-guidance-on-selecting-and-hardening-remote-access-vpns/),[NIST SP 800-46 Rev. 2](https://csrc.nist.gov/pubs/sp/800/46/r2/final?utm_source=chatgpt.com),
