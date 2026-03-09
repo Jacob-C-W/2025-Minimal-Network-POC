@@ -20,5 +20,17 @@ This may sound like four, but the point is I have a different file type stored i
 
 #
 
+Data retention is balenced between needs and capability.  
+
+After any major configuration change the backup should be updated, or should occur at least quarterly-with automated weekly or monthly being preferred. 
+
+Telemetry should be saved for at least three days to a week to ensure data is logged for recovery, troubleshooting, and future policy. 
+
+Reporting should occur weekly to monthly and then be saved for at least a year. 
+
+-*Yours Truly*, I have 5+ years of relevant expierence, I can be a SME. 
+
+#
+
 **sources:**
-[What is a 3-2-1 Backup Strategy?](https://www.seagate.com/blog/what-is-a-3-2-1-backup-strategy/),[Backup Policy](C:\Users\jwilliams\Documents\Git\JPF-EAC\00-governance\foundation\policy\backup-policy.md),
+[What is a 3-2-1 Backup Strategy?](https://www.seagate.com/blog/what-is-a-3-2-1-backup-strategy/),[Backup Policy](C:\Users\jwilliams\Documents\Git\JPF-EAC\00-governance\foundation\policy\backup-policy.md), [Me](https://github.com/Jacob-C-W)

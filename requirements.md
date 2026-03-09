@@ -15,13 +15,14 @@
     Governance: 
 
 1. Connectivity [x]
-2. VLAN segmentation []
+2. Segmentation [x] 
+    - (zone, acl, isolation, and segmentation) 
 3. Guest Network [x]
 4. IoT Network [x]
 5. Remote Access over VPN [x]
-6. Non Carrier Assigned DNS []
-7. Backup and Restoration Steps []
-8. Hardening checklist []
+6. Non Carrier Assigned DNS [x]
+7. Backup and Restoration Steps [x] (rule-of-three and data retention)
+8. Hardening checklist [x]
 #
     Design:
 
