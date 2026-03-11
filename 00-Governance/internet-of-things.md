@@ -17,7 +17,7 @@
 
     Controls:
 - Each IoT acquisition must be supported by a customer/infrastructure need
-- Each IoT implementatio must be supported by a security and privacy risk analysis
+- Each IoT implementation must be supported by a security and privacy risk analysis
 - IoT data should be encrypted by default given the capability
 - IoT networks must be monitored
 - IoT devices must be connected to as small a controlled network segment as feasible; Segmentation.
