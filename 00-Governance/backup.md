@@ -28,8 +28,6 @@ Telemetry should be saved for at least three days to a week to ensure data is lo
 
 Reporting should occur weekly to monthly and then be saved for at least a year. 
 
--*Yours Truly*, I have 5+ years of relevant expierence, I can be a SME. 
-
 #
 
 **sources:**

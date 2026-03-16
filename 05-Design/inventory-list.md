@@ -32,7 +32,7 @@ First impressions
     - Server infrastructure will be containerized via Docker
     - Running Linux, Ubuntu Server
 4. DAS as NAS
-    - Leverage a storage bay over USB, preferably C.
+    - Leverage a storage bay over USB, preferably USB C.
     - Nextcloud on Docker, over the LAN
 5. GL.iNet OPALs, one per 20-25 users and within 10m of -80db frequency range. 
 6. In Line AVR Amazon UPS, or AVR Gituroso UPS 
@@ -40,3 +40,20 @@ First impressions
 8. Cable management Venor?
 9. Amazon basics surge protectors
 10. Cable Vendor?
+
+
+In another design we run a TP Link ENV
+
+ER605 Core
+EAP110 Access Points
+TL-SG108E Switch
+Raspberry Pi 3 Tailscale (VPN) Companion device
+
+Conversely we run a...
+
+GL.iNet Brume 2 Core
+GL.iNet OPAL Access Points
+Managed Netgear 8 port Switch
+
+
+Server and services...exception due to disk and ram cost skyrocketing from industry and market fluctuation. 

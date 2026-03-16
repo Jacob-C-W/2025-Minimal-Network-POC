@@ -56,3 +56,7 @@ So, I push for an all in one firewall-router solution with tailscale functionali
 
 So it is possible to buy a 30$ GLiNet OPAL or 25$ used Raspberry Pi and configure a dedicated exit node for Tailscale for your network. But it will take a bit more know-how and troubleshooting. 
 
+#
+
+## Conclusion
+The TP-Link ER605 is the highest value core option, and can work with Tailscale given a 25-35$ companion Raspberry Pi 3 that will advertise routes or serve as an Exit Node. 

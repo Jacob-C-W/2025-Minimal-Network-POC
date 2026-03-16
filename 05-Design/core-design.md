@@ -25,13 +25,16 @@ It will leverage several technologies to ensure fast, reliable, and secure speed
 
 ## Switch
 - Managed
-- VLAN tagging and passing. 
+- VLAN tagging and passing
+- ACLs
+- SSH capability (remote management)
 
 ## Server
 - Ubuntu Server OS
-- Mini PC, HP Elite Desktop or Lenevo ThinkCentre
+- Mini PC
 - Docker
 - (8gb-16gb) Ram min.
+- 4 Cores min.
 
 ## Wireless
 - Multiple radios (SSIDs)
@@ -48,6 +51,8 @@ It will leverage several technologies to ensure fast, reliable, and secure speed
     - In Line, power constantly filtered through battery
 
 # Architecture
+
+
 
 ## Layout
 
@@ -68,7 +73,7 @@ VLAN outline:
 
  Seperate wireless vlans for: IoT, Guest, Data, Security
 
- *Jump by 5s to leave space for future expansion, wireless just add a hundred or multiply by 10 if able.*
+ *Jump by 10s to leave space for future expansion, wireless just add a hundred or multiply by 10 if able.*
 
     Example, VLAN 10 IoT and VLAN 110 WirelessIoT.
 

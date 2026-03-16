@@ -1,0 +1,41 @@
+#docker-compose down
+#rm docker-compose.yml
+#nano docker-compose.yml
+#docker-compose up -d
+services:
+  nextcloud:
+    image: nextcloud
+    restart: always
+    networks:
+    ports:
+      - "38080:8080"
+    depends_on:
+      - nextcloud-db-data
+    environment:
+      - MYSQL_HOST=mariadb
+      - MYSQL_DATABASE=database_name
+      - MYSQL_USER=nextcloud
+      - MYSQL_PASSWORD=******
+    networks:
+      - nextcloud_net
+
+  mariadb:
+    container_name: mariadb
+    image: mariadb:10.5
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: "******"
+      MYSQL_DATABASE: "database_name"
+      MYSQL_USER: "mariadb"
+      MYSQL_PASSWORD: "******"
+    volumes:
+      - nextcloud-db-data:/var/lib/mysql
+    networks:
+      - nextcloud_net
+
+networks:
+  nextcloud_net:
+    driver: bridge
+
+volumes:
+  nextcloud-db-data:

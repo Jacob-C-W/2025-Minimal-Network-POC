@@ -18,3 +18,8 @@ All logs and telemetry should be archived for at least three days, up to a week 
 
 Reports should be exported and saved externally from monitoring systems every week to a month, and kept for a year. 
 
+#
+
+Backups will be stored on Nextcloud. 
+
+Telemetry will be housed on the same server inside the monitoring service's dedicated volume. 

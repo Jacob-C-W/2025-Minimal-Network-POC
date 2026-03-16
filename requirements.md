@@ -25,4 +25,28 @@
 8. Hardening checklist [x]
 #
     Design:
+1. Core Design [x]
+2. Core Analysis (Firewall router assessment) [x]
+3. Docker (server) [x]
+4. DNS (nextdns) [x]
+5. Wireless [x]
+6. Inventory [x]
+7. Data Retention [x]
+8. VLANs [x]
+9. VPN [x]
+10. AND MANY MORE...
+    Configuration:
+1. TP Link ER605
+2. NetGear Managed Switch
+3. GL.iNet OPAL
+4. Ubuntu Server [x]
+    1. Services [x]
+    2. Zabbix [x]
+    3. phpIPAM [x]
+    4. Nextcloud [x]
+5. Tailscale
+6. NextDNS
+#
+    Deploy!!!
+
 
