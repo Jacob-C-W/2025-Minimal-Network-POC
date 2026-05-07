@@ -26,4 +26,4 @@ Funny enough I got four good designs out of Grok and Claude before they pooped o
 
 I have the cheap 8$ Grok prem. but for this testing I didn't leverage it. 
 
-ChatGPT was only requested to leverage three designs. And the final prop asked for one more design and the final export. It struggled most because it kept pulling from my existing research and needed an extra prompt to force it to look externally for options. 
+ChatGPT was only requested to leverage three designs. And the final prop asked for one more design and the final export. It struggled most because it kept pulling from my existing research and needed an extra prompt to force it to look externally for other options. 

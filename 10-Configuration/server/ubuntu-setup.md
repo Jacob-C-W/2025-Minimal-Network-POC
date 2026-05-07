@@ -57,7 +57,7 @@ install stable docker then done
     docker --version
     docker compose version
     !
-    #see that both docker and docker compose installed correctly
+    # see that both docker and docker compose installed correctly
     !
     sudo systemctl enable docker
     sudo systemctl start docker

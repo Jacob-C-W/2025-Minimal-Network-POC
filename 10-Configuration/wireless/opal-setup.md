@@ -53,3 +53,7 @@
     **Due to hardware limitations this device only supports two SSIDs, so it is reccomended to host a GUEST and DATA vlan!**
     - Guest: Guests, Internet of Things, Untrusted devices and users.
     - Data: Trusted users and systems that need access to internal resources. 
+
+    While testing I found that if either radio, 2.4ghz or 5ghz, had more than one SSID it started to lose performance and suffer from bugs. 
+
+    I also would advise against a multi Access Point design with these as most non enterprise level Access Points have terrible roaming capabilities. It is more of a best effort setup for cheap, look for opprotunities to upgrade and expand the infrastructure. 
